@@ -1,0 +1,307 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res/com.zumodegrapa.modernartui"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zumodegrapa.modernartui.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/block_margin"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1.8" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag"
+                    custom:color_state="blue" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1.8" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/block_margin"
+                        android:layout_weight="1" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/block_margin"
+                        android:layout_weight="3" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="@dimen/block_margin"
+                        android:layout_weight="1" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="@dimen/block_margin"
+                        android:layout_weight="2" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1.8" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/block_margin"
+                        android:layout_weight="2" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/block_margin"
+                        android:layout_weight="1" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag"
+                    custom:color_state="yellow" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="@dimen/block_margin"
+                        android:layout_weight="1" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="@dimen/block_margin"
+                        android:layout_weight="1" >
+
+                        <com.zumodegrapa.modernartui.ColorBlockView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:tag="@string/clickable_view_tag" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1.8" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag"
+                    custom:color_state="red" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_margin="@dimen/block_margin"
+                android:layout_weight="1" >
+
+                <com.zumodegrapa.modernartui.ColorBlockView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:tag="@string/clickable_view_tag" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <SeekBar
+                android:id="@+id/seekBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

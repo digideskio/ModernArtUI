@@ -1,0 +1,19 @@
+<resources>
+
+    <!--
+         Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels.
+    -->
+   
+    <declare-styleable name="ColorBlockView">
+        <attr name="color_state" format="enum">
+            <enum name="white" value="0" />
+            <enum name="red" value="1" />
+            <enum name="blue" value="2" />
+            <enum name="yellow" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>

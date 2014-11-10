@@ -1,0 +1,9 @@
+<resources>
+
+    <color name="black_overlay">#000000</color>
+ 	<color name="white_block">#FFFFFF</color>
+ 	<color name="red_block">#FF0000</color>
+ 	<color name="yellow_block">#FFFF00</color>
+ 	<color name="blue_block">#0000FF</color>
+
+</resources>
